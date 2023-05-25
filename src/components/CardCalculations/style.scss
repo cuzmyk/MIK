@@ -1,0 +1,21 @@
+@import "./../App/vars";
+
+.nav {
+  padding: 20px 40px;
+  background-color: $white;
+  border-radius: 25px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li a {
+  color: #000;
+}
+
+.nav ul li:last-child a {
+  color: $accent-color;
+}

@@ -1,0 +1,17 @@
+@import "./../App/vars";
+
+.category__selectors {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.category__selector {
+  padding: 13px 50px;
+  border-radius: 8px;
+  appearance: none;
+  width: 500px;
+  background-color: $white;
+  background-image: url(./../../../public/img/arrowList.svg);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+}

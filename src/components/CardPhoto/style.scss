@@ -1,0 +1,40 @@
+@import "./../App/vars";
+
+.photo__holder {
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  width: 520px;
+  height: 320px;
+  background-color: $white;
+  border-radius: 25px;
+  overflow: hidden;
+  img {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.photo__title {
+  font-weight: 500;
+  margin-bottom: 15px;
+  max-width: 330px;
+  font-size: 35px;
+  text-align: center;
+  color: $sub-color;
+}
+.photo__subtitle {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: $sub-color;
+}
+
+.photo__input {
+  position: absolute;
+  inset: 0;
+  outline: none;
+  opacity: 0;
+}

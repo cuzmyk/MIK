@@ -1,0 +1,43 @@
+@import "./../App/vars";
+
+.nav {
+  padding: 20px 40px;
+  background-color: $white;
+  border-radius: 25px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li a {
+  color: #000;
+}
+
+.nav ul li:last-child a {
+  color: $accent-color;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  text-align: center;
+}
+
+.cards__none {
+  position: absolute;
+  background-color: $white;
+  inset: 0;
+  padding: 14%;
+  border-radius: 25px;
+  h2 {
+    margin-bottom: 44px;
+    font-weight: 500;
+    font-size: 34px;
+    color: $sub-color;
+  }
+}

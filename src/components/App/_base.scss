@@ -1,0 +1,76 @@
+@import "./vars";
+
+@font-face {
+  font-family: GothamPro;
+  src: url(./../../../public/Fonts/GothamPro-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: GothamPro;
+  src: url(./../../../public/Fonts/GothamPro.ttf);
+  font-weight: 400;
+}
+
+body {
+  background-color: $primary-color;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.container {
+  position: absolute;
+  width: 1360px;
+  left: 50%;
+  bottom: 120px;
+  top: 120px;
+  transform: translate(-50%, 0);
+
+  display: grid;
+  grid-template: 80px 1fr / 1fr;
+  grid-gap: 50px;
+}
+
+.container--create {
+  bottom: 200px;
+  top: 200px;
+  grid-template: 1fr / 1fr;
+}
+
+.btn {
+  position: relative;
+  padding: 20px 50px;
+
+  // background-color: $accent-color;
+  color: $white;
+
+  font-weight: 500;
+  font-size: 20px;
+  z-index: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in;
+  &::after {
+    position: absolute;
+    content: "";
+    left: -100%;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(266.87deg, #a359ff 50%, #892bff 100%);
+    z-index: -1;
+    transition: left 0.2s ease-in;
+  }
+  &:hover {
+    transform: scale(1.02);
+    &::after {
+      left: 0;
+    }
+  }
+}

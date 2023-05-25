@@ -1,0 +1,84 @@
+@import "./../App/vars";
+
+.cards__card {
+  display: flex;
+  justify-content: space-between;
+}
+.card__info {
+  cursor: pointer;
+  height: 180px;
+  width: 93%;
+  display: grid;
+  grid-template: 1fr / repeat(5, 1fr);
+  background-color: $white;
+  border-radius: 25px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    transform: translate(0, -3px);
+    box-shadow: 3px 3px 5px $sub-color;
+  }
+}
+
+.card__photo {
+  padding: 10px;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.card__field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  font-size: 20px;
+  p {
+    font-weight: 400;
+  }
+  &:not(:last-child)::after {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 1px;
+    right: 0;
+    background-color: $sub-color;
+  }
+}
+
+.card__controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+.card__edit {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $white;
+  border: 2px solid $white;
+  transition: border 0.2s ease-in;
+  &:hover {
+    border: 2px solid $accent-color;
+  }
+}
+.card__delete {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $white;
+  border: 2px solid $white;
+  transition: border 0.2s ease-in;
+  &:hover {
+    border: 2px solid #a00000;
+  }
+}
+
+.btn--create {
+  display: block;
+  margin-top: 30px;
+}
