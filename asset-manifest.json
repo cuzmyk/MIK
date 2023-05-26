@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d86ff45.css",
-    "main.js": "/static/js/main.938e6b7b.js",
-    "static/media/GothamPro-Medium.ttf": "/static/media/GothamPro-Medium.dca4b95d345c2abd8661.ttf",
-    "static/media/GothamPro.ttf": "/static/media/GothamPro.4f71921a0823129cd8ba.ttf",
-    "index.html": "/index.html",
-    "static/media/arrowBack.svg": "/static/media/arrowBack.286b7d97a7fd275cd60d.svg",
-    "static/media/arrowList.svg": "/static/media/arrowList.7c87f8612988e35f0f0d.svg",
-    "main.9d86ff45.css.map": "/static/css/main.9d86ff45.css.map",
-    "main.938e6b7b.js.map": "/static/js/main.938e6b7b.js.map"
+    "main.css": "/WildverriesCalc/static/css/main.fa08d1f5.css",
+    "main.js": "/WildverriesCalc/static/js/main.938e6b7b.js",
+    "static/media/GothamPro-Medium.ttf": "/WildverriesCalc/static/media/GothamPro-Medium.dca4b95d345c2abd8661.ttf",
+    "static/media/GothamPro.ttf": "/WildverriesCalc/static/media/GothamPro.4f71921a0823129cd8ba.ttf",
+    "index.html": "/WildverriesCalc/index.html",
+    "static/media/arrowBack.svg": "/WildverriesCalc/static/media/arrowBack.286b7d97a7fd275cd60d.svg",
+    "static/media/arrowList.svg": "/WildverriesCalc/static/media/arrowList.7c87f8612988e35f0f0d.svg",
+    "main.fa08d1f5.css.map": "/WildverriesCalc/static/css/main.fa08d1f5.css.map",
+    "main.938e6b7b.js.map": "/WildverriesCalc/static/js/main.938e6b7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d86ff45.css",
+    "static/css/main.fa08d1f5.css",
     "static/js/main.938e6b7b.js"
   ]
 }
