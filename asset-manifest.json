@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MIK/static/css/main.0583044d.css",
+    "main.css": "/MIK/static/css/main.739a794d.css",
     "main.js": "/MIK/static/js/main.29f29d7d.js",
     "static/media/GothamPro-Medium.ttf": "/MIK/static/media/GothamPro-Medium.dca4b95d345c2abd8661.ttf",
     "static/media/GothamPro.ttf": "/MIK/static/media/GothamPro.4f71921a0823129cd8ba.ttf",
@@ -8,11 +8,11 @@
     "static/media/marker.svg": "/MIK/static/media/marker.84f95e7a206e329bb36f2663a5279df1.svg",
     "static/media/arrowBack.svg": "/MIK/static/media/arrowBack.286b7d97a7fd275cd60d.svg",
     "static/media/arrowList.svg": "/MIK/static/media/arrowList.7c87f8612988e35f0f0d.svg",
-    "main.0583044d.css.map": "/MIK/static/css/main.0583044d.css.map",
+    "main.739a794d.css.map": "/MIK/static/css/main.739a794d.css.map",
     "main.29f29d7d.js.map": "/MIK/static/js/main.29f29d7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.0583044d.css",
+    "static/css/main.739a794d.css",
     "static/js/main.29f29d7d.js"
   ]
 }
